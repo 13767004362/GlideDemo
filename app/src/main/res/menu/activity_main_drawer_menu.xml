@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="简单使用">
+        <menu>
+            <item
+                android:id="@+id/nav_imageview"
+                android:icon="@mipmap/ic_launcher"
+                android:title="单个ImageView" />
+            <item
+                android:id="@+id/nav_recyclerview"
+                android:icon="@mipmap/ic_launcher"
+                android:title="RecyclerView列表" />
+        </menu>
+    </item>
+
+    <item android:title="圆角图片">
+        <menu>
+            <item
+                android:id="@+id/nav_transformation"
+                android:icon="@mipmap/ic_launcher"
+                android:title="自定义Transformation" />
+            <item
+                android:id="@+id/nav_imageviewtarget"
+                android:icon="@mipmap/ic_launcher"
+                android:title="自定义ImageViewTarget" />
+        </menu>
+    </item>
+
+</menu>

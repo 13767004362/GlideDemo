@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:background="#4CAF50"
+    android:text="单个图片使用各种资源图片案例"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="本地加载图片:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/sigleiamge_load_iv"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="远程加载图片:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/sigleiamge_remote_iv"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="预先下载，本地加载图片:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/sigleiamge_preload_iv"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -8,3 +8,4 @@
 
    ![image](http://img.blog.csdn.net/20170520155143988?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGV4aW5nZW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+- [Glide v4与OkHttp3自定义集成(Kotlin语言)](https://github.com/13767004362/GlideOkhttpDemo)
